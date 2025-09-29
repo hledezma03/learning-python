@@ -35,7 +35,7 @@ A = name_of_tuple(42,)
 A = tuple(list_name) and list(tuple_name)
 16.  Variables that “contain” list values don’t actually contain lists directly. What do they contain instead?
 A = This variables are references for the values into the list
-17.  What is the difference between copy.copy() and copy.deepcopy()?
+17.  What is the difference between copy.copy() and copy.deepcopy()
 A = with copy we only copy the direct list we are referencing to while using deepcopy() we go inside that list and copy what's inside
 '''
 
